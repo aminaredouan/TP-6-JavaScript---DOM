@@ -1,0 +1,37 @@
+body{
+    font-family:Ariala, sans-serif;
+    background-color: beige;
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray
+}
+h1{
+    text-align: center;
+    color: black
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid gray;
+}
+.accomplie{
+    text-decoration: line-through;
+    color: gray;
+    background-color: lightsalmon;
+}
