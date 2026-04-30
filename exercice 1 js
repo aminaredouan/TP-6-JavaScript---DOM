@@ -1,0 +1,11 @@
+let div = document.getElementById("conteneur");
+let paragraphe = document.getElementById("monparagraphe");
+
+paragraphe.innertext = "le texte a été modifié";
+paragraphe.style.backgroundColor = " lightblue ";
+paragraphe.style.textAlign = "center";
+paragraphe.style.padding = "10px";
+
+div.addEventListener("click",function(){
+  paragraphe.innerText = "un clic a éte détecté";
+});
